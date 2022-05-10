@@ -6,7 +6,6 @@
 
 .contact-postcard {
     background: #fbf6f3;
-    display: inline;
     position: relative;
     min-height: 620px;
     width: 100%;
@@ -49,4 +48,6 @@
     bottom: 0;
     padding: 0 35px 0 10px;
     width: 350;
+    float: left;
+    display: inline;
 }
