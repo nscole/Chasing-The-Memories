@@ -1,0 +1,52 @@
+
+
+
+
+
+
+.contact-postcard {
+    background: #fbf6f3;
+    display: inline;
+    position: relative;
+    min-height: 620px;
+    width: 100%;
+    max-width: ;
+    margin: 0 auto;}
+
+.postcard-back {
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 874px;
+    height: 648px;
+}
+
+.postcard-front {
+    position: absolute;
+    justify-content: center;
+    margin: 100px 0 0 60px;
+    z-index: 11;
+}
+
+
+.contact-left {
+    position: initial;
+    position: absolute;
+    left: 0;
+    z-index: 12;
+    padding: 60px 30px 60px 60px;
+    top: 110px;
+    width: 350px;
+}
+
+.contact-right {
+    position: initial;
+    padding: 20px;
+    position: absolute;
+    right: 0;
+    z-index: 12;
+    bottom: 0;
+    padding: 0 35px 0 10px;
+    width: 350;
+}
