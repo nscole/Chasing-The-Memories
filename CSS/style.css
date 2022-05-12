@@ -6,11 +6,14 @@ body {
     background-color: rgb(250, 244, 244); 
     }
 
+/* HEADER IMAGES START */
 .image-container img{
     width: 100%;
     max-height: 100%;
 }
+/* HEADER IMAGES END */
 
+/* INDEX ARTICLE START */
 article {
     padding: 18px 24px;
     text-align: left;
@@ -29,12 +32,14 @@ article .content p{
     letter-spacing: 0.08em;
     line-height: 1.6em;
 }
+/* INDEX ARTICLE END */
 
+/* NAV BAR START*/
 .navigation-bar {
-    position: sticky;
+    position: fixed;
     height: 70px;
     background: white;
-    z-index: #999;
+    z-index: 999;
     width: 100%;
     top: 0px;
     left: 0px;
@@ -89,7 +94,11 @@ nav ul li a:hover, nav ul li a:visited:hover {
     background: gray;
     color: white;
 }
+/* NAV BAR END */
 
+
+
+/* INDEX ARTICLE INFORMATION STYLE START */
 h2 {
     color: #DBBBA0;
     font-family: 'sebastian bobby';
@@ -103,8 +112,10 @@ p {
 
     
 }
+/* INDEX ARTICLE INFORMATION STYLE START */
 
-/* Destinations Styles */
+
+/* Destinations Styles START */
 .feat-box {
     width: 100%;
     width: 340px;
@@ -126,6 +137,74 @@ h3 {
     text-align: center;
     margin: 40px 0 15px;
     font-weight: 100;
+}
+/* Destinations Styles START */
+
+.tba-popular-dest {
+    box-sizing: inherit;
+    margin-bottom: 30px
+    display: block;
+}
+
+.tba-wrapper {
+    box-sizing: inherit;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.tba-popular-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+
+.popular-item {
+    margin: 0 10px 40px auto;
+    padding: 15px 15px 30px 15px;
+    border: 1px solid #e6e6e6;
+    position: relative;
+    
+}
+
+
+.popular-item a {
+    background-color: inherit;
+    color: #ffffff;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.popular-item img {
+    display: inline-flex;
+    margin: 0 auto;
+}
+
+
+.DEST-background {
+    position: absolute;
+    bottom: 10px;
+    left: 60px;
+    width: 230px;
+    height: 50px;
+}
+
+.popular-item .worldimage {
+    width: 5%;
+    height: 1%;
+}
+
+.popular-item h4 {
+    position: absolute;
+    bottom: 11px;
+    left: 50%;
+    justify-content: center;
+}
+
+h4 {
+    font-family: 'Lato', sans-serif;
 }
 
 /* Index Image Button */
@@ -161,25 +240,6 @@ footer {
 
 /* Gallery */
 
-
-/* Header image
-.hero-image {
-    width: 100%;
-    background-size: cover;
-    position: relative;
-    opacity: 0.8;
-  }
-  
-  .hero-text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-  }
-
-   */
 
 
 
