@@ -1,16 +1,19 @@
 
 
 
+
+
 .contact-postcard {
-    background: #fbf6f3;
     position: relative;
     min-height: 620px;
     width: 100%;
     left: 80px;
-    margin: 0 auto;}
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
 
 .postcard-back {
-    position:absolute;
+    position: absolute;
     top: 0;
     left: 20px;
     z-index: 10;
@@ -20,10 +23,12 @@
 }
 
 .postcard-front {
+    border-radius: 10px;
     position: absolute;
     justify-content: center;
-    margin: 100px 0 0 60px;
+    margin: 120px 0 20px 60px;
     z-index: 11;
+    margin-top: ;
 }
 
 
@@ -63,3 +68,17 @@
     display: inline-block;  
 }
 
+
+section .test p{
+    position: relative;
+}
+
+footer {
+    justify-content: center;
+    display: flex;
+    background-color: DarkSalmon;
+    color: white;
+    position: relative;
+    z-index: 40;
+ 
+  }
