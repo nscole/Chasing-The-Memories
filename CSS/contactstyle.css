@@ -1,24 +1,22 @@
 
 
 
-
-
-
 .contact-postcard {
     background: #fbf6f3;
     position: relative;
     min-height: 620px;
     width: 100%;
-    max-width: ;
+    left: 80px;
     margin: 0 auto;}
 
 .postcard-back {
     position:absolute;
     top: 0;
-    left: 0;
+    left: 20px;
     z-index: 10;
     width: 874px;
     height: 648px;
+    margin-bottom: 20px;
 }
 
 .postcard-front {
@@ -30,24 +28,38 @@
 
 
 .contact-left {
-    position: initial;
+    justify-content: center;    
     position: absolute;
     left: 0;
     z-index: 12;
     padding: 60px 30px 60px 60px;
-    top: 110px;
+    top: 195px;
     width: 350px;
+    margin-left: 25px;
+    
 }
 
-.contact-right {
-    position: initial;
-    padding: 20px;
-    position: absolute;
-    right: 0;
-    z-index: 12;
-    bottom: 0;
-    padding: 0 35px 0 10px;
-    width: 350;
-    float: left;
-    display: inline;
+.contact-left h4 {
+    text-align: center;
 }
+
+
+.contact-right .CR {
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 470px;
+}
+
+.contact-right ul {
+    list-style: none;
+    z-index: 14;
+    position: absolute;
+    width: 300px;
+}
+
+.contact-right ul li {
+    margin-bottom: 15px;
+    width: 300px;
+    display: inline-block;  
+}
+
