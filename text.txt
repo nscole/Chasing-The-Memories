@@ -28,14 +28,3 @@ EMAIL
 SUBJECT
 MESSAGE
 
-
-
-
-drop dropdown
-<!-- <div class="dropdown-content">
-                    <li><a href="#">Canada</a></li>
-                    <li><a href="#">Dubai</a></li>
-                    <li><a href="#">Italy</a></li>
-                    <li><a href="#">America</a></li>
-                </div>  -->
-            <!-- </div> -->

@@ -3,7 +3,7 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: "lato";
-    background-color: rgb(254, 242, 242); 
+    background-color: rgb(250, 244, 244); 
     }
 
 .image-container img{
@@ -39,6 +39,7 @@ article .content p{
     top: 0px;
     left: 0px;
     right: 0px;
+    font-family: "Lato-Bold";
 }
 
 .logo img {
@@ -89,13 +90,76 @@ nav ul li a:hover, nav ul li a:visited:hover {
     color: white;
 }
 
+h2 {
+    color: #DBBBA0;
+    font-family: 'sebastian bobby';
+    line-height: 15px;
+    letter-spacing: 2px;
+    font-size: 70px;
+    text-transform: initial;
+}
+
+p {
+
+    
+}
+
+/* Destinations Styles */
+.feat-box {
+    width: 100%;
+    width: 340px;
+    height: 430px;
+    border: 5px solid transparent;
+    background-clip: padding-box;
+    box-shadow: 0 0 0 1px #f0ece9;
+    background: url(images/featured-bg@2x.jpg) no-repeat;
+    background-size: 320px 415px;
+    background-position: center;
+}
 
 
+h3 {
+    font-family: ivy mode;
+    font-size: 21px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin: 40px 0 15px;
+    font-weight: 100;
+}
 
 
+.image-container .btn {
+    position: absolute;
+    color: white;
+    background: #C5B8A8;
+    border: 1px solid #C5B8A8;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 16px;
+    font-family: 'Lato-BoldItalic';
+    letter-spacing: 2px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .image-container .btn:hover {
+    background-color: black;
+  }
+
+footer {
+    justify-content: center;
+    display: flex;
+    background-color: DarkSalmon;
+    color: white;
+  }
 
 
-
+/* Gallery */
 
 
 /* Header image
