@@ -75,7 +75,7 @@ nav ul li a:hover, nav ul li a:visited:hover {
 /* NAV BAR END */
 
 h3 {
-    font-family: ivy mode;
+    font-family: 'IvyMode-Regular' sans-serif;
     font-size: 25px;
     text-transform: uppercase;
     letter-spacing: 1.5px;
@@ -134,26 +134,21 @@ h3 {
 .contact-left {
     justify-content: center;    
     position: absolute;
-    left: 0;
+    left: 8px;
     z-index: 12;
     padding: 60px 30px 60px 60px;
-    top: 195px;
+    top: 182px;
     width: 350px;
     margin-left: 25px;
-    
-    
 }
 
-.contact-left h4 {
-    text-align: center;
-    font-family: 'IvyMode-Light';
-}
 
 
 .contact-right .CR {
     position: absolute;
     margin-top: 260px;
     margin-left: 470px;
+
 }
 
 .contact-right ul {
@@ -166,11 +161,13 @@ h3 {
 .contact-right ul li {
     margin-bottom: 15px;
     width: 300px;
-    display: inline-block;  
+    display: inline-block; 
+     
 }
 
 .column .contact-left h4 {
-    font-family: 'Lato-bold';
+    text-align: center;
+    font-family: 'IveMode-Regular' sans-serif;
     font-weight: normal;
     font-size: 25px;
     color: #737373;
@@ -187,6 +184,11 @@ h3 {
     font-family: 'Lato', sans-serif;
 }
 
+
+form ul li {
+    color: #73736f;
+    font-family: 'IveMode-Regular' sans-serif;
+}
 
 /* Footer Start */
 footer::before {
