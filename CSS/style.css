@@ -108,10 +108,7 @@ h2 {
     text-transform: initial;
 }
 
-p {
 
-    
-}
 /* INDEX ARTICLE INFORMATION STYLE START */
 
 
@@ -127,7 +124,6 @@ p {
     background-size: 320px 415px;
     background-position: center;
 }
-
 
 h3 {
     font-family: ivy mode;
@@ -157,9 +153,6 @@ h3 {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
-
-
 
 .popular-item {
     margin: 0 10px 40px auto;
@@ -214,7 +207,9 @@ h4 {
     overflow-wrap: break-word;
 }
 
-/* Index Image Button */
+/* Destination Finish */
+
+/* Index Image Button Start */
 .image-container .btn {
     position: absolute;
     color: white;
@@ -236,14 +231,16 @@ h4 {
   .image-container .btn:hover {
     background-color: black;
   }
+/* Index Image Button Finish */
+
 
 footer {
-    
     justify-content: center;
     display: flex;
     background-color: DarkSalmon;
     color: white;
-
+    position: relative;
+    z-index: 40;
   }
 
 

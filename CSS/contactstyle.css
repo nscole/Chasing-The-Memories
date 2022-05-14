@@ -1,9 +1,108 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "lato";
+    background-color: rgb(250, 244, 244); 
+    }
+
+/* HEADER IMAGES START */
+.image-container img{
+    width: 100%;
+    max-height: 100%;
+}
+/* HEADER IMAGES END */
+
+/* NAV BAR START*/
+.navigation-bar {
+    position: fixed;
+    height: 70px;
+    background: white;
+    z-index: 999;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    font-family: "Lato-Bold";
+}
+
+.logo img {
+    position: absolute;
+    padding-left: 30px;
+    padding-top: 10px;
+    float: left;
+    height: 50px;
+}
+
+.logo a, .logo a:visited {
+    color: #999;
+    text-decoration: none;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    z-index: 9999;
+}
+
+nav ul li {
+    float: left;
+    position: relative;
+}
+
+nav ul li a, nav ul li a:visited {
+    display: block;
+    padding: 0px 20px;
+    line-height: 70px;
+    background: white;
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover, nav ul li a:visited:hover {
+    background: gray;
+    color: white;
+}
+/* NAV BAR END */
+
+h3 {
+    font-family: ivy mode;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin: 40px 0 30px;
+    font-weight: 100;
+}
 
 
 
 
+
+/* Postcard Form Start */
+.contact-box {
+    margin-bottom: 30px;
+    margin-top: 40px;
+    display: block;
+}
+
+.contact-wrapper {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
 
 .contact-postcard {
+
     position: relative;
     min-height: 620px;
     width: 100%;
@@ -15,11 +114,11 @@
 .postcard-back {
     position: absolute;
     top: 0;
-    left: 20px;
     z-index: 10;
     width: 874px;
     height: 648px;
     margin-bottom: 20px;
+    
 }
 
 .postcard-front {
@@ -28,7 +127,7 @@
     justify-content: center;
     margin: 120px 0 20px 60px;
     z-index: 11;
-    margin-top: ;
+    
 }
 
 
@@ -42,10 +141,12 @@
     width: 350px;
     margin-left: 25px;
     
+    
 }
 
 .contact-left h4 {
     text-align: center;
+    font-family: 'IvyMode-Light';
 }
 
 
@@ -68,9 +169,29 @@
     display: inline-block;  
 }
 
+.column .contact-left h4 {
+    font-family: 'Lato-bold';
+    font-weight: normal;
+    font-size: 25px;
+    color: #737373;
+    letter-spacing: 0.5px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
 
-section .test p{
-    position: relative;
+.column .contact-left p {
+    font-size: 15px;
+    line-height: 24px;
+    color: #73736f;
+    overflow-wrap: break-word;
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* Footer Start */
+footer::before {
+    content: " ";
+    display: table;
 }
 
 footer {
@@ -80,5 +201,14 @@ footer {
     color: white;
     position: relative;
     z-index: 40;
- 
+    margin-top: 40px;
   }
+
+
+footer p {
+    justify-content: center;
+}
+
+
+
+/* Footer End */
