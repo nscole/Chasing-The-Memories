@@ -1,6 +1,5 @@
 /* Destinations Styles START */
 
-
 .tba-popular-dest {
     box-sizing: inherit;
     margin-bottom: 30px;
@@ -20,7 +19,7 @@
 }
 
 .popular-item {
-    margin: 0 10px 40px auto;
+    margin: 0 auto 40px auto;
     padding: 15px 15px 30px 15px;
     border: 1px solid #e6e6e6;
     position: relative;
@@ -76,19 +75,14 @@ h4 {
 
 /* Featured on the blog text start*/
 .home-feat {
-    background: #FBFAF9;
-    display: inline-block;
-    width: 100%;
-    position: relative;
-    height: 110px;
-    margin-bottom: 30px;
+    background-color: white;
     
 }
 
-.home-feat h3 {
+.home-feat h1 {
     color: #73736F;
     font-family: 'IvyMode-Light';
-    font-size: 21px;
+    font-size: 30px;
     text-transform: uppercase;
     letter-spacing: 1.5px;
     text-align: center;
@@ -100,7 +94,7 @@ h4 {
     margin-inline-end: 0px;
 }
 
-.home-feat h3 span {
+.home-feat h1 span {
     color: #DBBBA0;
     font-family: 'SebastianBobby';
     letter-spacing: 3px;
@@ -113,20 +107,74 @@ h4 {
 
 /* Feature Box Start */
 
-.feat-box {
-    width: 100%;
-    width: 340px;
-    height: 430px;
-    border: 5px solid transparent;
-    background-clip: padding-box;
-    box-shadow: 0 0 0 1px #f0ece9;
-    background-size: 320px 415px;
-    background-position: center;
+.feat-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: inherit;
+    max-width: 1110px;
+    margin: 0 auto;
 }
 
-h3 {
-    font-family: ivy mode;
-    font-size: 25px;
+.feat-box {
+    margin: 0 auto 40px auto;
+    border: 1px solid #e6e6e6;
+    position: relative;
+    background-color: white;
+    width: 317px;
+    height: 435px;   
+}
+
+.feat-box .feat-background {
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.feat-img {
+    display: block;
+    position: absolute;
+    margin: 20px 18px;
+    z-index: 2;
+}
+
+.feat-text {
+    position: absolute;
+    z-index: 100;
+    margin: 310px 86px;
+}
+
+.feat-text h4 {
+    color: #73736F;
+    font-family: 'IvyMode-Light';
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    font-weight: 100;
+    margin: 0 auto 10px auto;
+    max-width: 275px;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.feat-box a.link {
+    color: #C5B8A8;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    width: 100%;
+}
+
+.feat-box a.link:hover {
+    color: #000000;
+}
+
+h1 {
+    color: #73736F;
+    font-family: 'IvyMode-Light';
+    font-size: 30px;
     text-transform: uppercase;
     letter-spacing: 1.5px;
     text-align: center;
@@ -134,4 +182,13 @@ h3 {
     font-weight: 100;
 }
 
+
+footer {
+    justify-content: center;
+    display: flex;
+    background-color: DarkSalmon;
+    color: white;
+    position: relative;
+    z-index: 40;
+  }
 /* Destination Finish */

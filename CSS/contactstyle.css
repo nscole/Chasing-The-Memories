@@ -74,9 +74,10 @@ nav ul li a:hover, nav ul li a:visited:hover {
 }
 /* NAV BAR END */
 
-h3 {
-    font-family: 'IvyMode-Regular' sans-serif;
-    font-size: 25px;
+h1 {
+    color: #73736F;
+    font-family: 'IvyMode-Light';
+    font-size: 30px;
     text-transform: uppercase;
     letter-spacing: 1.5px;
     text-align: center;
