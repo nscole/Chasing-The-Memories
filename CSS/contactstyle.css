@@ -168,11 +168,11 @@ h1 {
 
 .column .contact-left h4 {
     text-align: center;
-    font-family: 'IveMode-Regular' sans-serif;
+    font-family: 'IvyMode-Light';
     font-weight: normal;
     font-size: 25px;
     color: #737373;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
     margin-bottom: 50px;
     text-transform: uppercase;
 }
@@ -188,7 +188,8 @@ h1 {
 
 form ul li {
     color: #73736f;
-    font-family: 'IveMode-Regular' sans-serif;
+    font-family: 'IvyMode-Light';
+    letter-spacing: 1px;
 }
 
 /* Footer Start */

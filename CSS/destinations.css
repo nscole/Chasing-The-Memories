@@ -105,8 +105,8 @@ h4 {
 /* Featured on the blog text end*/
 
 
-/* Feature Box Start */
 
+/* Feature Box Start */
 .feat-wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -130,14 +130,15 @@ h4 {
     z-index: 1;
 }
 
-
 .feat-img {
     display: block;
     position: absolute;
     margin: 20px 18px;
     z-index: 2;
 }
+/* Feature Box Finish */
 
+/* Feature Text Styles Start */
 .feat-text {
     position: absolute;
     z-index: 100;
@@ -181,8 +182,10 @@ h1 {
     margin: 40px 0 30px;
     font-weight: 100;
 }
+/* Feature Text Styles Finish */
 
 
+/* Footer Start */
 footer {
     justify-content: center;
     display: flex;

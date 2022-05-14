@@ -113,10 +113,9 @@ article h1 {
 
 h2 {
     color: #DBBBA0;
-    font-family: 'SebastianBobby';
-    line-height: 15px;
-    letter-spacing: 5px;
-    font-size: 40px;
+    font-family: 'SebastianBobbyAlt';
+    letter-spacing: 2px;
+    font-size: 58px;
     text-transform: initial;
 }
 
